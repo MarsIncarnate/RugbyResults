@@ -4,7 +4,7 @@ const { MongoClient, ServerApiVersion } = require('mongodb');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const uri = "mongodb://tonygallagher:mongoDbBuepo575@ac-qheewkd-shard-00-00.ho3uhlx.mongodb.net:27017,ac-qheewkd-shard-00-01.ho3uhlx.mongodb.net:27017,ac-qheewkd-shard-00-02.ho3uhlx.mongodb.net:27017/?ssl=true&replicaSet=atlas-14b891-shard-0&authSource=admin&retryWrites=true&w=majority";
+const uri = process.env.MONGO_URI;
 
 async function run() {
   try {
