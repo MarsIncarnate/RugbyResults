@@ -1,3 +1,5 @@
+# This is a full stack website under construction, it's a web application that connects to an API and populates a Mongo Atlas Database with live Rugby data; fixtures, teams, standings, and competitions, retrieves this data when required through configured express endpoints and displays the data in structured formats on the website in a crisp UI
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
